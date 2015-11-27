@@ -1,0 +1,28 @@
+{
+  "name": "js6-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap project to play around with JS6",
+  "main": "app/index.html",
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "js6",
+    "javascript",
+    "javascript 6",
+    "bootstrap"
+  ],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.0.2",
+    "jquery": "~2.1.4"
+  },
+  "devDependencies": {}
+}

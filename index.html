@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>JS6 bootstrap</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+    <body spellcheck="false">
+
+        <!--[if lt IE 9]>
+        <div class="unsupported-browser">
+            <strong>
+                You are using an outdated browser.
+            </strong>
+            <span>
+                Please <a class="upgrade-browser"
+                href="http://browsehappy.com/">upgrade your browser</a>
+                to improve your experience.
+            </span>
+        </div>
+        <![endif]-->
+
+        <div id="app" class="app"></div>
+
+        {% if (o.htmlWebpackPlugin.options.webpackDevServer) { %}
+        <!-- Inject webpack-dev-server script if necessary -->
+        <script src="{%=o.htmlWebpackPlugin.options.webpackDevServer%}"></script>
+        {% } %}
+    </body>
+</html>
